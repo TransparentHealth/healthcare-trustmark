@@ -1,5 +1,5 @@
 # Healthcare Trustmark
-# NIST SP 800-63-3 (Digital Identity Guidelines) Trustmark 
+
 
 This document was created to standardize the way Identity Assurance Levels are communicated electronically.  It is based on
 NIST SP 800-63-3 (Digital Identity Guidelines), but it includes one additional Identity Assurance Level "1.5".  This is used when some real world corroporating is given but thwe identity assurance does not quite meet the level 2 as defined by NIST.
