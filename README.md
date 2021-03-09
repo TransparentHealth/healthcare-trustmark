@@ -1,4 +1,4 @@
-# Healthcare Ttrustmark
+# Healthcare Trustmark
 # NIST SP 800-63-3 (Digital Identity Guidelines) Trustmark 
 
 This document was created to standardize the way Identity Assurance Levels are communicated electronically.  It is based on
