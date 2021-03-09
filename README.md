@@ -15,7 +15,7 @@ The Trustmark Details (Mapping to NIST 800-63-3)
 | Identity Assurance Level `IAL` Value                        | VoT Identity Proofing `P` Value                      |
 | ----------------------------------------------------------- | ---------------------------------------------------- |
 | [IAL1](https://pages.nist.gov/800-63-3/sp800-63a.html#sec4) | [P1](https://tools.ietf.org/html/rfc8485#section-2.1)|       
-| [IAL1.5](https://github.com/TransparentHealth/healthcare-trustmark) | [P2](https://tools.ietf.org/html/rfc8485#section-2.1)|
+| [IAL1.5](https://github.com/TransparentHealth/healthcare-trustmark/blob/main/ial-1-5-definition.md) | [P2](https://tools.ietf.org/html/rfc8485#section-2.1)|
 | [IAL2](https://pages.nist.gov/800-63-3/sp800-63a.html#sec4) | [P2](https://tools.ietf.org/html/rfc8485#section-2.1)|
 | [IAL3](https://pages.nist.gov/800-63-3/sp800-63a.html#sec4) | [P3](https://tools.ietf.org/html/rfc8485#section-2.1)|
 
@@ -31,14 +31,19 @@ The Trustmark Details (Mapping to NIST 800-63-3)
 URL
 ---
 
-The [URL](https://github.com/TransparentHealth/800-63-3-trustmark/) to this public Github repository serves as the Trustmark itself.  The value of the `vtm` field shall be `https://github.com/TransparentHealth/800-63-3-trustmark/`.
+The [URL](https://github.com/TransparentHealth/800-63-3-trustmark/) to this public Github repository serves as the Trustmark itself.  The value of the `vtm` field shall be `https://github.com/TransparentHealth/healthca-trustmark/`.
 
 Scope
 -----
 
 
 The is a [Vectors of Trust Trustmark](https://tools.ietf.org/html/rfc8485) based on 
-[NIST SP 800-63-3 Digital Identity Guidelines](https://pages.nist.gov/800-63-3/). It was created as part of an effort to establish a best practice for sharing digital identities in a healthcare setting. Entities who are operating or implementing [OpenID Connect](https://openid.net/connect/) Identity Providers(IdP) may use this as an implementation guide. While designed with US healthcare in mind, it is not healthcare specific.
+[NIST SP 800-63-3 Digital Identity Guidelines](https://pages.nist.gov/800-63-3/).  It adds one additional Identity Assurance Level to accomidate health care scenerios.
+
+
+
+
+It was created as part of an effort to establish a best practice for sharing digital identities in a healthcare setting. Entities who are operating or implementing [OpenID Connect](https://openid.net/connect/) Identity Providers(IdP) may use this as an implementation guide. While designed with US healthcare in mind, it is not healthcare specific.
 
 
 * Identity Assuance Levels (IAL) as defined in ([NIST SP 800-63A: Enrollment and Identity Proofing](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63a.pdf))
