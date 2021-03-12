@@ -2,10 +2,10 @@
 
 
 This document was created to standardize the way Identity Assurance Levels are communicated electronically.  It is based on
-NIST SP 800-63-3 (Digital Identity Guidelines), but it includes one additional Identity Assurance Level "1.5".  This is used when some real world corroporating is given but thwe identity assurance does not quite meet the level 2 as defined by NIST.
+NIST SP 800-63-3 (Digital Identity Guidelines), where Identity Assuance Levels are defined as `1`, `2`, or `3`.  The Trustmark adds one additional Identity Assurance Level, `1.5`.  `1/5` is for when some corroborating evidence is given but the Identity Assurance Level does not quite meet Level `2` as defined by NIST SP 800-63-3 (Digital Identity Guidelines).
 
 
-While designed with OpenID Connect in mind, this can be applied to other systems including LDAP, SAML, or user profile calls using OAuth2.  For example, a user profile request may include the name\value pair `vot`=`P2`, to indicate a user has undergone identity proofing to a NIST Identity Assurance Level of IAL1.5. Communicating an `IAL` of `1`,,`1.5`, `2`, or `3` was the motivation of this document, but it also provides a basic mapping for `AAL`.  See scope and security sections for use and implementation guidance.
+
 
 
 
@@ -28,6 +28,13 @@ The Trustmark Details (Mapping to NIST 800-63-3)
  
 
 
+Details on Use
+--------------
+
+While designed with OpenID Connect in mind, this Trustmark can be applied to other systems including LDAP, SAML, FHIR, or user profile calls using OAuth2.  For example, a user profile request may include the name\value pair `vot`=`P2`, to indicate a user has undergone identity proofing to a NIST Identity Assurance Level of IAL `2`. Communicating an `IAL` of `1`,,`1.5`, `2`, or `3` was the motivation of this document, but it also provides a basic mapping for `AAL` and `FAL`. See scope and security sections for use and implementation guidance.
+
+
+
 URL
 ---
 
@@ -39,8 +46,6 @@ Scope
 
 The is a [Vectors of Trust Trustmark](https://tools.ietf.org/html/rfc8485) based on 
 [NIST SP 800-63-3 Digital Identity Guidelines](https://pages.nist.gov/800-63-3/).  It adds one additional Identity Assurance Level to accomidate health care scenerios.
-
-
 
 
 It was created as part of an effort to establish a best practice for sharing digital identities in a healthcare setting. Entities who are operating or implementing [OpenID Connect](https://openid.net/connect/) Identity Providers(IdP) may use this as an implementation guide. While designed with US healthcare in mind, it is not healthcare specific.
