@@ -11,15 +11,8 @@ This level is designed "some real world corroboration of identity" is given, but
 Any of the following are acceptable forms of proof of identity for an Identity assurance level  `1.5` designation.
 
 * An insurance card, medicare Card, Medicaid Card, etc.
-* 2nd party identity attestation.  (I have known Bob Smith for yearsm and attest that Bob Smith is Bob Smith
+* 2nd party identity attestation.  (I have known Bob Smith for yearsm and attest that Bob Smith is Bob Smith.)
 * A utility bill with an address
-* A successful login with associated account
-* A cryptographic key verification 
-* Presentation of a state or fereraly issued photo identificacation such as a Driver's licens, REALID, passport, military ID, etc.
+* Photo identification issued by a state or federal govenment, but does not meet the IAL2 Validatyion reequirements for "STRONG".
 
-
-
-In many cases verification of those documents such as a state or fereraly issued photo identificacation such as a Driver's licens, REALID, passport, military ID would result in a IAL of `2`.
-
-
-
+If requirements are met for IAL `2`, then IAL `2` should be used instead of IAL `1.5`.
