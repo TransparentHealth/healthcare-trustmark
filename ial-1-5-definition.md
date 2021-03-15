@@ -8,7 +8,7 @@ Critera for using IAL `1.5`:
 
 This level is designed "some real world corroboration of identity" is given, but it does not meet NIST's IAL `2`.
 
-Any of the following are acceptable forms of proof of identity for an Identity assurance level  `1.5` designation.
+Any of the following are acceptable forms of proof of identity for an Identity Assurance :evel  `1.5` designation.
 
 * An insurance card, medicare Card, Medicaid Card, etc.
 * 2nd party identity attestation.  (I have known Bob Smith for yearsm and attest that Bob Smith is Bob Smith.)
