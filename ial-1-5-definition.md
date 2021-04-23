@@ -2,17 +2,23 @@ Identity Assurance Level 1.5 (DRAFT)
 ====================================
 
 
-(Comments/collaboration welcome)
+This document aims to define some Identity Assurance Level(IAL) between NIST Digital Identity Guidelines IAL `1` and `2`. This alternative level was created to serve public health scenarios.  The `1/5` level is designed to show that "some real world corroboration of identity" is given, but it does not meet NIST's IAL `2` standards in some way.  This document is not published by NIST. This is a working draft document.  Comments and collaboration welcome. 
+
+
 
 Critera for using IAL `1.5`:
+----------------------------
 
-This level is designed "some real world corroboration of identity" is given, but it does not meet NIST's IAL `2`.
+Any of the following are acceptable forms of proof of identity for an Identity Assurance Level  `1.5` designation.
 
-Any of the following are acceptable forms of proof of identity for an Identity Assurance :evel  `1.5` designation.
+* An in-person encounter where some corroborating evidence is provided. This may include non-photo identification. Examples include an  
+insurance card, a Medicare card, a Medicaid card, a utility bill, etc.
+* 2nd party identity attestation.  "I, Bob, know Alice to be Alice."
+* Photo identification issued by a state or federal government, but does not meet the IAL2 validation requirements for "STRONG".
 
-* An insurance card, medicare Card, Medicaid Card, etc.
-* 2nd party identity attestation.  (I have known Bob Smith for yearsm and attest that Bob Smith is Bob Smith.)
-* A utility bill with an address
-* Photo identification issued by a state or federal govenment, but does not meet the IAL2 Validatyion reequirements for "STRONG".
+
+
+Implementatation Guidance
+=========================
 
 If requirements are met for IAL `2`, then IAL `2` should be used instead of IAL `1.5`.
