@@ -10,8 +10,8 @@ Criteria for using IAL `1.5`:
 
 Any of the following are acceptable forms of proof of identity for an Identity Assurance Level  `1.5` designation.
 
-* An in-person encounter where some corroborating evidence is provided. Examples include non-photo identification such as  
-insurance card, a Medicare/Medicard card, a utility bill, etc.
+* An in-person or virtual encounter where some corroborating evidence is provided. Examples include non-photo identification such as  
+insurance card, a Medicare/Medicaid card, a utility bill, etc.
 * 2nd party identity attestation.  "I, Bob, know Alice to be Alice."
 * Photo identification issued by a state or federal government, but does not meet the IAL2 validation requirements for "STRONG".
 
