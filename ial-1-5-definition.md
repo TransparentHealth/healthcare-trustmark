@@ -6,7 +6,7 @@ This document aims to define some Identity Assurance Level(IAL) between NIST Dig
 
 
 
-Critera for using IAL `1.5`:
+Criteria for using IAL `1.5`:
 ----------------------------
 
 Any of the following are acceptable forms of proof of identity for an Identity Assurance Level  `1.5` designation.
