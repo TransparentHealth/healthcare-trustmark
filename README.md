@@ -2,7 +2,7 @@
 
 
 This document was created to standardize the way Identity Assurance Levels are communicated electronically.  It is based on
-NIST SP 800-63-3 (Digital Identity Guidelines), where Identity Assuance Levels are defined as `1`, `2`, or `3`.  The Trustmark adds one additional Identity Assurance Level, `1.5`.  `1.5` is a level to signify some corroborating evidence of identity is givenm but the Identity Assurance Level does not meet Level `2` as defined by NIST SP 800-63-3 (Digital Identity Guidelines).
+NIST SP 800-63-3 (Digital Identity Guidelines), where Identity Assuance Levels are defined as `1`, `2`, or `3`.  The Trustmark adds one additional Identity Assurance Level, `1.5`.  `1.5` is a level to signify some corroborating evidence of identity is given but the Identity Assurance Level does not meet Level `2` as defined by NIST SP 800-63-3 (Digital Identity Guidelines).
 
 
 
