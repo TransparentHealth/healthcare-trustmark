@@ -1,5 +1,7 @@
 # Healthcare Trustmark
 
+**Please use https://github.com/TransparentHealth/800-63-3-trustmark instead of this document.  NIST intends to cover "Low assurance identity proofing and enrolment" in revision 4 of Digital Identity Guidelines (SP 800-63-4), Version 4 should be released in the first half of 2022.  Please see this GitHub issue for more information https://github.com/usnistgov/800-63-4/issues/1 **
+
 
 This document was created to standardize the way Identity Assurance Levels are communicated electronically.  It is based on
 NIST SP 800-63-3 (Digital Identity Guidelines), where Identity Assuance Levels are defined as `1`, `2`, or `3`.  The Trustmark adds one additional Identity Assurance Level, `1.5`.  `1.5` is a level to signify some corroborating evidence of identity is given but the Identity Assurance Level does not meet Level `2` as defined by NIST SP 800-63-3 (Digital Identity Guidelines).
