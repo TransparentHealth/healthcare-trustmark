@@ -1,7 +1,7 @@
-# Healthcare Trustmark - Not maintained. Use https://github.com/TransparentHealth/800-63-3-trustmark instead 
+# Healthcare Trustmark - Use https://github.com/TransparentHealth/800-63-3-trustmark instead 
 
 
-*NOTICE: lease use https://github.com/TransparentHealth/800-63-3-trustmark instead of this document.  NIST intends to cover "Low assurance identity proofing and enrolment" in revision 4 of Digital Identity Guidelines (SP 800-63-4), Version 4 should be released in the first half of 2022.  Please see this GitHub issue for more information https://github.com/usnistgov/800-63-4/issues/1 *
+*NOTICE: Use https://github.com/TransparentHealth/800-63-3-trustmark instead of this document.  NIST intends to cover "low assurance identity proofing and enrolment" in revision 4 of Digital Identity Guidelines (SP 800-63-4). Version 4 should be released in the first half of 2022.  Please see this GitHub issue for more information https://github.com/usnistgov/800-63-4/issues/1 *
 
 
 This document was created to standardize the way Identity Assurance Levels are communicated electronically.  It is based on
